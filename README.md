@@ -25,7 +25,7 @@ rakesh.agarwal@ (leadership), sameer.joshi@ (HR admin, Durgapur only) — all `@
 
 ## Imports
 
-- `@/…` → `src/…`; `@shared/…` → `../shared/src/…` (import sub-modules: `@shared/types`, `@shared/logic`,
+- `@/…` → `src/…`; `@shared/…` → `shared/src/…` (vendored from `../shared`; refresh with `npm run sync-shared`) (import sub-modules: `@shared/types`, `@shared/logic`,
   `@shared/utils/dates`, `@shared/content/mph`, `@shared/content/mentoring`, `@shared/utils/random` for `uid`).
 - `import type` for types (`verbatimModuleSyntax`), no enums (`erasableSyntaxOnly`).
 

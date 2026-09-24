@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "oxlint",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "sync-shared": "rm -rf shared/src shared/generated && mkdir -p shared/generated && cp -R ../shared/src shared/src && cp ../shared/generated/seed.json shared/generated/"
   },
   "dependencies": {
     "clsx": "^2.1.1",

@@ -20,8 +20,8 @@
     /* Aliases (mirrored in vite.config.ts). `@seed` is typed in src/seed.d.ts */
     "paths": {
       "@/*": ["./src/*"],
-      "@shared/*": ["../shared/src/*"],
-      "@shared": ["../shared/src/index.ts"]
+      "@shared/*": ["./shared/src/*"],
+      "@shared": ["./shared/src/index.ts"]
     },
 
     /* Linting */
